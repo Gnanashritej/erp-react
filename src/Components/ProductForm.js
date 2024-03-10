@@ -16,11 +16,13 @@ const ProductForm = ({ onSubmit, initialProduct }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" name="name" placeholder="Name" value={product.name} onChange={handleChange} required />
-      <input type="text" name="category" placeholder="Category" value={product.category} onChange={handleChange} required />
-      <input type="number" name="price" placeholder="Price" value={product.price} onChange={handleChange} required />
-      <input type="number" name="stockQuantity" placeholder="Stock Quantity" value={product.stockQuantity} onChange={handleChange} required />
-      <button type="submit">{initialProduct ? 'Update Product' : 'Add Product'}</button>
+      <div className='product-form'>
+        <input type="text" name="name" placeholder="Name" value={product.name} onChange={handleChange} required />
+        <input type="text" name="category" placeholder="Category" value={product.category} onChange={handleChange} required />
+        <input type="number" name="price" placeholder="Price" value={product.price} onChange={handleChange} required />
+        <input type="number" name="stockQuantity" placeholder="Stock Quantity" value={product.stockQuantity} onChange={handleChange} required />
+        <button type="submit">{initialProduct ? 'Update Product' : 'Add Product'}</button>
+      </div>
     </form>
   );
 };

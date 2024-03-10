@@ -78,6 +78,16 @@ body {
   font-size: 24px;
   margin-right: 10px; /* Add spacing between icon and text */
 }
+
+.icon-text{
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.icon-section{
+  display: flex;
+  align-items: center; /* Vertically centre the icons in their section */
+}
 /* Add spacing between table cells */
 table {
   border-collapse: collapse;
@@ -92,6 +102,13 @@ th, td {
 
 th {
   background-color: #f2f2f2;
+}
+
+.product-form{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .header {

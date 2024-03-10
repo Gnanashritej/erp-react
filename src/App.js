@@ -16,15 +16,24 @@ function App() {
         <nav className="navbar">
           {/* Dashboard link with icon */}
           <NavLink to="/" activeClassName="active" exact>
-            <span className="material-symbols-outlined">team_dashboard</span> Dashboard
+            <div className='icon-section'>
+              <span className="material-symbols-outlined">team_dashboard</span>
+              <p className='icon-text'>Dashboard</p>
+            </div>
           </NavLink>
           {/* Products link with icon */}
           <NavLink to="/products" activeClassName="active">
-            <span className="material-symbols-outlined">inventory_2</span> Products
+            <div className='icon-section'>
+              <span className="material-symbols-outlined">inventory_2</span>
+              <p className='icon-text'>Products</p>
+            </div>
           </NavLink>
           {/* Orders link with icon */}
           <NavLink to="/orders" activeClassName="active">
-            <span className="material-symbols-outlined">order_approve</span> Orders
+            <div className='icon-section'>
+              <span className="material-symbols-outlined">order_approve</span>
+              <p className='icon-text'>Orders</p>
+            </div>
           </NavLink>
         </nav>
 

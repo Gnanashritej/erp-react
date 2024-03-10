@@ -23,7 +23,7 @@ const ProductsManagement = () => {
       <h2>Add Product</h2>
       <ProductForm onSubmit={handleAddProduct} />
       {/* Add space */}
-      <div style={{ marginTop: '3rem' }}></div>
+      <div style={{ marginTop: '2rem' }}></div>
       {/* Pass mock data as a prop */}
       <ProductsList products={products} onDelete={handleDeleteProduct} />
     </div>
