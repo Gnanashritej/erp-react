@@ -1,71 +1,65 @@
-# Getting Started with Create React App
+# React ERP System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+React ERP System is a web application designed to streamline enterprise resource planning (ERP) processes for businesses. It provides a user-friendly interface for managing various aspects of business operations, including inventory management, order processing, and customer relationship management (CRM).
 
-## Available Scripts
+## Installation
+To run the application locally, follow these steps:
 
-In the project directory, you can run:
+1. Clone the repository: `https://github.com/Gnanashritej/erp-react.git`
+2. Navigate to the project directory: `cd erp-react`
+3. Install dependencies: `npm install`
 
-### `npm start`
+## Usage
+To start the development server, run: `npm start`
+Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Folder Structure
+- `/src`: Contains the source code for the application.
+  - `/components`: Contains React components.
+  - `/styles`: Contains CSS stylesheets.
+- `/public`: Contains static assets and the index.html file.
+- `README.md`: Documentation file.
+- `package.json`: Configuration file for npm dependencies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- React.js
+- CSS
+- HTML
+- npm
 
-### `npm test`
+## Features
+- Dashboard: View key metrics and insights about the business.
+- Products Management: Add, edit, and delete products from the inventory.
+- Orders Management: Process and manage customer orders efficiently.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
+Here are some sample screenshots of the application:
 
-### `npm run build`
+### Dashboard
+![Dashboard](./screenshots/Dashboard.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Products Management
+![Products Management](./screenshots/Products.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Orders Management
+![Orders Management](./screenshots/Orders.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
+The application can be deployed to any hosting service. Follow these steps:
+1. Build the project: `npm run build`
+2. Deploy the build folder to your hosting provider.
 
-### `npm run eject`
+## Contributing
+Contributions are welcome! Follow these steps to contribute:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature`)
+3. Commit your changes (`git commit -am 'Add feature'`)
+4. Push to the branch (`git push origin feature`)
+5. Submit a pull request
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+## Acknowledgements
+- Material Icons: Used for iconography.
+- React Router: Used for client-side routing.
+- Bootstrap: Used for responsive design.
