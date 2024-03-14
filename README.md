@@ -17,10 +17,19 @@ Open [http://localhost:3000](http://localhost:3000) to view the application in y
 ## Folder Structure
 - `/src`: Contains the source code for the application.
   - `/components`: Contains React components.
-  - `/styles`: Contains CSS stylesheets.
 - `/public`: Contains static assets and the index.html file.
 - `README.md`: Documentation file.
 - `package.json`: Configuration file for npm dependencies.
+
+## Components 
+- Dashboard.js : Responsible for Dashboard page which shows all the key metrics and summary of the features
+- Header.js    : Responsible for Header component of the application which holds the company name and logo
+- ProductForm.js :Responsible for Adding new products into the database.The product will be added only if all the required fields are filled in the input form.
+- ProductList.js : Responsible for Editing, Updating, and Deleting the products from the database
+- ProductManagement.js : Responsible for displaying the products in the form of a table which displays the columns like product name , category , stock quantity, price etc.
+- OrdersList.js : Responsible for deleting and updating the status of the orders.
+- OrdersCalendar.js : Responsible for showing the expected delivery dates of the orders listed and can be used as filter.
+- OrdersManagement.js : Responsible for displaying the orders in the form of table where we can delete the orders and update its status to pending or delivered. 
 
 ## Technologies Used
 - React.js
@@ -29,7 +38,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application in y
 - npm
 
 ## Features
-- Dashboard: View key metrics and insights about the business.
+- Dashboard: View key metrics and insights about the business. This page displays the key metrics and summary in the form of metric cards. We can also add insightful charts to the dashboard using chart.js
 - Products Management: Add, edit, and delete products from the inventory.
 - Orders Management: Process and manage customer orders efficiently.
 
@@ -49,6 +58,7 @@ Here are some sample screenshots of the application:
 The application can be deployed to any hosting service. Follow these steps:
 1. Build the project: `npm run build`
 2. Deploy the build folder to your hosting provider.
+3. Here I am using netlify to deploy my web application.
 
 ## Contributing
 Contributions are welcome! Follow these steps to contribute:
